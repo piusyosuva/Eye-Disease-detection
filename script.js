@@ -1,5 +1,5 @@
-const API_URL = 'https://your-api-url.com/predict';  // Replace with your API URL
-const API_KEY = 'your_api_key_here';                 // Replace with your API key
+const API_URL = 'http://localhost:5000/activate';  // API URL
+const API_KEY = 'bd93e7f5-8a7c-41f7-a1f8-427e6f5271cf';                
 
 async function submitImage() {
   const input = document.getElementById('imageInput');
